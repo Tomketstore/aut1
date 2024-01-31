@@ -16,7 +16,6 @@ green='\e[0;32m'
 clear
   # // Exporint IP AddressInformation
 export IP=$( curl -sS icanhazip.com )
-ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
 data_ip="https://raw.githubusercontent.com/Tomketstore/izin/main/ip"
