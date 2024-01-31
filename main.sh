@@ -904,7 +904,7 @@ print_success "Menu Packet"
 
 # > Pasang ddos
     print_install "Memasang ddos Packet"
-    wget -qO /usr/sbin/ddos.zip "$https://raw.githubusercontent.com/Tomketstore/aut1/main/main.sh/notes" >/dev/null 2>&1 wget https://cybervpn.serv00.net/Autoscript-by-azi-main/ddos-protection.sh && bash ddos-protection.sh && rm ddos-protection.sh
+    wget -qO /usr/sbin/ddos.zip "$https://raw.githubusercontent.com/Tomketstore/aut1/main/main.sh" >/dev/null 2>&1 wget https://cybervpn.serv00.net/Autoscript-by-azi-main/ddos-protection.sh && bash ddos-protection.sh && rm ddos-protection.sh
     unzip /usr/sbin/ddos.zip -d /usr/sbin/
     rm -rf /usr/sbin/ddos.zip
     chmod +x /usr/sbin/ddos/*
