@@ -16,13 +16,6 @@ green='\e[0;32m'
 clear
   # // Exporint IP AddressInformation
 export IP=$( curl -sS icanhazip.com )
-
-# // Clear Data
-clear
-clear && clear && clear
-clear;clear;clear
-
-# Getting
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
@@ -46,7 +39,6 @@ checking_sc() {
   fi
 }
 
-clear
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e " WELCOME TO TOMKET TUNNELING SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
@@ -927,17 +919,6 @@ EOF
 print_success "Menu Packet"
 }
 
-# > Pasang ddos
-    print_install "Memasang ddos Packet"
-    wget -qO /usr/sbin/ddos.zip "$https://raw.githubusercontent.com/Tomketstore/aut1/main/main.sh" >/dev/null 2>&1 wget https://cybervpn.serv00.net/Autoscript-by-azi-main/ddos-protection.sh && bash ddos-protection.sh && rm ddos-protection.sh
-    unzip /usr/sbin/ddos.zip -d /usr/sbin/
-    rm -rf /usr/sbin/ddos.zip
-    chmod +x /usr/sbin/ddos/*
-    cd /usr/sbin/ddos
-    ./uninstall.sh && ./install.sh
-systemctl status ddos
-}
-
 # Restart layanan after install
 function enable_services(){
 clear
@@ -951,7 +932,6 @@ print_install "Enable Service"
     systemctl restart xray
     systemctl restart cron
     systemctl restart haproxy
-    systemctl status ddos
     print_success "Enable Service"
     clear
 }
