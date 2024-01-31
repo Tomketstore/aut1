@@ -960,9 +960,7 @@ rm -rf /root/domain
 #sudo hostnamectl set-hostname $user
 secs_to_human "$(($(date +%s) - ${start}))"
 sudo hostnamectl set-hostname $username
-cho -e '\e[32;1m============================================================\e[0m'
-echo -e '\e[0;32m  Installation Success Silahkan Klik " ENTER " Untuk melakukan reboot \e[0m'
-echo -e '\e[32;1m============================================================\e[0
+echo -e "${green} Script Successfull Installed Silahkan klik * Enter *"
 echo ""
 read -p "$( echo -e "Press ${YELLOW}[ ${NC}${YELLOW}Enter${NC} ${YELLOW}]${NC} For reboot") "
 reboot
