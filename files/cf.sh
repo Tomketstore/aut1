@@ -9,7 +9,7 @@ echo ""
 echo ""
 echo ""
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c3)
-read -rp "Input Domain Name. Example ( Tomketstore ): " -e sub
+read -rp "Input Domain Name. Contoh ( Tomketstore ): " -e sub
 DOMAIN=Infinityxssh.com
 SUB_DOMAIN=${sub}.Infinityxssh.com
 CF_ID=Pendetot@gmail.com
