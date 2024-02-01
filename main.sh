@@ -27,7 +27,7 @@ echo -e "${YELLOW}----------------------------------------------------------${NC
 echo -e " WELCOME TO TOMKET TUNNELING SCRIPT ${YELLOW}(${NC}${green}Stable Edition${NC}${YELLOW})${NC}"
 echo -e "    SABAR GOK LAGI CEK IZIN VPS MU !!"
 echo -e " ›AUTHOR : ${green}TOMKET STORE® ${NC}${YELLOW}(${NC}${green}VERSI 5.0${NC}${YELLOW})${NC}"
-echo -e " ›TEAM 🅥🅝: TOMKET / BOGEL ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e " ›TEAM 🅥🅝: TOMKET STORE ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
