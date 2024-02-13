@@ -37,12 +37,6 @@ res1() {
     chmod +x fv-tunnel 
     bash fv-tunnel
     rm -rf fv-tunnel
-"wget https://github.com/jgmdev/ddos-deflate/archive/master.zip -O 
-   ddos.zip
-   unzip ddos.zip
-   cd ddos-deflate-master
-   uninstall.sh
-   install
 }
 netfilter-persistent
 clear
