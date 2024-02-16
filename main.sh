@@ -36,6 +36,7 @@ checking_sc() {
     exit
   fi
 }
+
 checking_sc
 # // Clear Data
 clear
