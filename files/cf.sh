@@ -9,11 +9,11 @@ echo ""
 echo ""
 echo ""
 #sub=$(</dev/urandom tr -dc a-z0-9 | head -c3)
-read -rp "Input Domain Name. Contoh ( Tomketsg1 ): " -e sub
-DOMAIN=tomketpedia.my.id
-SUB_DOMAIN=${sub}.tomketpedia.my.id
+read -rp "Input Domain Name. Contoh ( sgku1 ): " -e sub
+DOMAIN=serverpremium.cloud
+SUB_DOMAIN=${sub}.serverpremium.cloud
 CF_ID=storetomket@gmail.com
-CF_KEY=c7c056c2093f6624fdb35282e6b7979adfe7d
+CF_KEY=7bb6e55528ac49d6661f7f2105963e8420918
 set -euo pipefail
 IP=$(curl -sS ipv4.icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
