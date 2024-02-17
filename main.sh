@@ -58,10 +58,10 @@ checking_sc() {
 
 checking_sc
 # // Checking Os Architecture
-if [[ $( uname -m | awk'{print $1}') =="x86_64"]; then
-    echo -e "${OK} 𝗬𝗼𝘂𝗿 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲 𝗜𝘀 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 (${green}$(uname -m )${NC})"
+if [[ $( uname -m | awk '{print $1}' ) == "x86_64" ]]; then
+    echo -e "${OK} Your Architecture Is Supported ( ${green}$( uname -m )${NC} )"
 else
-    echo -e "${EROR} 𝗬𝗼𝘂𝗿 𝗔𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲 𝗜𝘀 𝗡𝗼𝘁 𝗦𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 ( ${YELLOW}$( uname -m )${NC} )"
+    echo -e "${EROR} Your Architecture Is Not Supported ( ${YELLOW}$( uname -m )${NC} )"
     exit 1
 fi
 
