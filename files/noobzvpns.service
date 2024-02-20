@@ -10,7 +10,7 @@ User=root
 Type=simple
 TimeoutStopSec=1
 LimitNOFILE=infinity
-ExecStart=/usr/bin/noobzvpns 8080 --start-service
+ExecStart=/usr/bin/noobzvpns 8880 --start-service
 
 [Install]
 WantedBy=multi-user.target
