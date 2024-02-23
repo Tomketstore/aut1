@@ -45,7 +45,6 @@ bash install.sh
 rm noobzvpns.zip
 systemctl restart noobzvpns
 print_success "NOOBZVPN"
-
 }
 netfilter-persistent
 clear
