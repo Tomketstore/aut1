@@ -25,7 +25,12 @@ wget -q https://raw.githubusercontent.com/Tomketstore/aut1/main/update.sh && chm
 - Always Use HTTPS : OFF
 - UNDER ATTACK MODE : OFF
 ```
-
+### INFO PORT
+```
+- PORT WEBSOCKET » 80
+- PORT TLS / SSL » 443
+- PORT NOOBZVPN » 2082
+```
 ### `WARNING !`
 ```
 Jika Mendapatkan Status Service Off
