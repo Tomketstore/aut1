@@ -789,7 +789,6 @@ apt autoclean -y >/dev/null 2>&1
 apt autoremove -y >/dev/null 2>&1
 print_success "ePro WebSocket Proxy"
 }
-print_success "INSTALL NOOBZVPN"
 function noobzvpn(){
 clear
 wget "${REPO}/noobzvpns.zip"
