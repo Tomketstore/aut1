@@ -14,7 +14,7 @@ wget -q https://raw.githubusercontent.com/Tomketstore/aut1/main/update.sh && chm
 
 ### WORK DI OS
 - UBUNTU 20.04.05
-- DEBIAN 10 ( Disarankan )
+- DEBIAN 10
 
 ### SETTING CLOUDFLARE
 ```
