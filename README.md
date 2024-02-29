@@ -28,14 +28,9 @@ wget -q https://raw.githubusercontent.com/Tomketstore/aut1/main/update.sh && chm
 ### INFO PORT
 ```
 - PORT WEBSOCKET » 80
-
 - PORT TLS / SSL » 443
-
-- PORT HANCED WS » 80
-                 » 8080
-
-- PORT NOOBZVPN  » 2082 
-                 » 8880
+- PORT HANCED WS » 80 » 8080
+- PORT NOOBZVPN  » 2082 » 8880  
 ```
 ### `WARNING !`
 ```
