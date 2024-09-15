@@ -267,7 +267,7 @@ clear
 }
 
 clear
-#getting
+# // Getting
 userdel jame > /dev/null 2>&1
 Username="admin"
 Password=Tomket
